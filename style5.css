@@ -1,0 +1,111 @@
+
+*,body,html{
+    padding: 0;
+    margin: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+
+h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+span{
+    color: #ffff ;
+
+}
+้้
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+list-style-type:none;
+}
+ nav li{
+    display: inline; 
+    float: right;
+    margin-top: 30px;
+    padding-right:20px;
+    padding-left:20px;
+    font-size: 20px;
+    
+}
+.col1,.col3{
+    text-align: left;
+    float: left;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+nav form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 2em;
+}
+#all{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+#left{
+    background-color:antiquewhite;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+}
+#leftL{
+    background-color:antiquewhite;
+    height: 300px;
+    width: 500px;
+    margin-top: 380px;
+    margin-left: 100px;
+    position: absolute;
+     display: inline;
+}
+#right{
+    background-color:antiquewhite;
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: absolute;
+    right: 100px;
+}
+#rightR{
+    background-color:antiquewhite;
+    height: 300px;
+    width: 500px;
+    margin-top: 380px;
+    margin-left: 100px;
+    position: absolute;
+    right: 100px;
+}
+#left1, #left2, #right1, #right2{
+    padding: 50px;
+    list-style-type: none;
+    margin-left: auto;
+    position: absolute;
+    margin-top: auto;
+    display: inline;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: darkgray;
+    width: 100px;
+    text-align: center;
+}
